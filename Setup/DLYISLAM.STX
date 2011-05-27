@@ -1,0 +1,52 @@
+[Main]
+;*** DO NOT TOUCH! The format of this file WILL change.
+Product=Setup Pro
+Version=1.0
+OEM=Eschalon Release Edition
+Base Directory=d:\projects\dlyislam\instimg
+
+[Settings]
+Application Name=DailyIslam
+Window Title=DailyIslam
+Background Title=DailyIslam
+Directory=c:\dlyislam
+PM Group=Islamic Software
+Prompt PM=TRUE
+Disk Label Mask=Disk #%d
+Background=Dithered Title
+ReadMe Font=Default
+Resize ReadMe=FALSE
+ReadMe At Start=FALSE
+Brand Source=FALSE
+Brand Destination=FALSE
+End Program=%d\dlyislam.exe
+
+[Branding]
+INI File=
+Section=
+Name=
+Company=
+
+[Components]
+1=DailyIslam
+2=PrayerMinder
+
+[Files]
+dlyislam.dat="DailyIslam Data File" 255066 A 1 C A
+dlyislam.exe="DailyIslam Application" 603136 A 1 C A
+dlyislam.scr="DailyIslam Screen Saver" 603136 W 1 C A
+ilib31ht.dll="ImageLib DLL" 315840 S 0 C A
+images\crumple.jpg="Picture" 14488 A 1 C A
+images\grass.gif="Picture" 32197 A 1 C A
+images\prayers.bmp="Picture" 6678 A 1 C A
+pmsetup.dat="PrayerMinder Data File" 7523 A 2 C A
+praymind.dat="PrayerMinder Data File" 5345 A 2 C A
+praymind.exe="PrayerMinder Application" 820736 A 2 C A
+
+[INI Items]
+0=1 "win.ini" "DailyIslam" "AppDir" "%d"
+
+[PM Items]
+DailyIslam=1 "%d\dlyislam.exe" "%d" "" "0"
+PrayerMinder=2 "%d\praymind.exe" "%d" "" "0"
+
